@@ -14,5 +14,4 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
 
     Page <Task> findByStatut(Pageable pageable, StatutTask statut);
 
-
 }

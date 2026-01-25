@@ -11,4 +11,11 @@ public class TaskStatusUpdateRequest {
 
     // Getters and Setters
 
+    public StatutTask getStatut() {
+        return statut;
+    }
+    public void setStatut(StatutTask statut) {
+        this.statut = statut;
+    }
+
 }
