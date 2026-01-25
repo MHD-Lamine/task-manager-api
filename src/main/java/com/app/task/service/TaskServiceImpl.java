@@ -2,12 +2,14 @@ package com.app.task.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import com.app.task.exception.TaskNotFoundException;
 import com.app.task.model.StatutTask;
 import com.app.task.model.Task;
 import com.app.task.repository.TaskRepository;
 
+@Service   
 public class TaskServiceImpl  implements TaskService {
 
     private final TaskRepository repository;
