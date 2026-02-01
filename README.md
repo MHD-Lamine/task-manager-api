@@ -58,12 +58,11 @@ PUT	/api/tasks/{id}/statut	        Modifier statut
 DELETE	/api/tasks/{id}	            Supprimer
 
 
+___________________
 
-
-- `Mohamed`
+- Mohamed Lamine
 - DIABATE
-
----
+___________________
 
 ## 🧩 ÉTAPE 10.4 — PETIT NETTOYAGE CLEAN CODE (CHECKLIST)
 
@@ -73,6 +72,3 @@ DELETE	/api/tasks/{id}	            Supprimer
 ✔️ Noms de classes en `*ServiceImpl`  
 ✔️ `@RestControllerAdvice` présent  
 ✔️ Pagination activée  
-
-
----
