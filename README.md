@@ -57,7 +57,7 @@ GET	/api/tasks/search	            Rechercher par statut
 PUT	/api/tasks/{id}/statut	        Modifier statut
 DELETE	/api/tasks/{id}	            Supprimer
 
-
+```
 ___________________
 
 - Mohamed Lamine
